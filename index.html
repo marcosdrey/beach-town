@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Beach Town - Oficial</title>
+</head>
+<body>
+    <main>
+        <section id="titulo">
+            <h1>Bem-vindo ao Acesso Beach Town</h1>
+            <h2>Logue em sua conta da melhor rede de pousadas do Brasil.</h2>
+        </section>
+        <section id="login">
+            <div id="imagem-login">
+
+            </div>
+            <div id="texto-login">
+                <h3>Realize o login na sua conta</h3>
+                <form action="form.php" method="post" autocomplete="on">
+                    <div class="formulario">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email" maxlength="40">
+                    </div>
+                    <div class="formulario">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>Site fictício desenvolvido por <a href="https://github.com/marcosdrey" target="_blank" rel="external">Marcos Andrey da Silva</a></p>
+</footer>
+</html>

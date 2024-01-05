@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --fonttitle: 'Borel', cursive;
+    --fonttext: 'Playpen Sans', cursive;
+}
+
+body, html, main {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(247, 182, 62), rgb(102, 75, 25));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#titulo {
+    height: 270px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.445);
+
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: var(--fonttitle);
+    font-size: 1.7em;
+    margin-top: 80px;
+}
+
+h2 {
+    font-family: var(--fonttext);
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+section#login {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.438);
+}
+
+div#imagem-login {
+    background-image: url(../imagens/imagem-login.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 90px;
+}
+
+div#texto-login {
+    padding: 20px 0px 30px 0px;
+}
+
+div#texto-login h3 {
+    font-family: var(--fonttext);
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+div.formulario {
+    margin: auto;
+    background-color: rgb(58, 128, 219);
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 92%;
+    border-radius: 10px;
+    color: white;
+}
+
+div.formulario > span.material-icons {
+    font-size: 2em;
+    transform: translateY(32%);
+}
+
+div.formulario > input {
+    padding: 19px;
+    width: calc(100% - 41px);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(148, 192, 250);
+}
+
+div#texto-login > form > input[type="submit"] {
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+    width: 92%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(252, 174, 56);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+div#texto-login > form > input[type="submit"]:hover {
+    background-color: rgb(134, 93, 30);
+    color: white;
+}
+
+div#texto-login > form > a {
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+    width: 92%;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 174, 56);
+    color: rgb(252, 174, 56);
+    text-decoration: none;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+div#texto-login > form > a:hover {
+    background-color: rgb(134, 93, 30);
+    border: none;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(58, 128, 219);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
